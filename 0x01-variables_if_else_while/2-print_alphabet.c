@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -14,28 +12,13 @@
 int main(void)
 
 {
-	int n;
-	int x;
+	int ch;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-	x = n % 10;
-	printf("Last digit of %d is %d ", n, x);
-	if (x > 5)
+	for (ch = 97; ch <= 122; ch++)
 	{
-		printf("and is greater than 5");
+		putchar(ch);
 	}
-	if (x == 0)
-	{
-		printf("and is 0");
-	}
-	if (x < 6 && x != 0)
-	{
-		printf("and is less than 6 and not 0");
-	}
-
-	printf("\n");
+	putchar(10); /* this is an ascii code for new line*/
 
 	return (0);
 }
