@@ -11,25 +11,31 @@
 
 int main(void)
 {
+
 	int i, j;
 
-	for (i = 48; i <= 57; i++)
-
+	for (i = 0; i <= 100; i++)
 	{
-		for (j = i + 1; j <= 57; j++)
+		for (j = 0; j < 100; j++)
 		{
-
-			putchar(j);
-			putchar(i);
-			if ((j == 57) && (i == 56))
-				break;
-			putchar(44);
-			putchar(32);
+			if (i < j)
+			{
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
+				putchar(32);
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
+				{
+					putchar(44);
+					putchar(32);
+				}
+			}
 		}
 	}
 
 	putchar('\n');
 
-return (0);
+	return (0);
 
 }
