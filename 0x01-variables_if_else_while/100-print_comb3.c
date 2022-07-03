@@ -19,7 +19,7 @@ for (j = i + 1; j <= 57; j++)
 {
 putchar(j);
 putchar(i);
-if (j == 57) && (i == 56))
+if ((j == 57) && (i == 56))
 break;
 putchar(44);
 putchar(32);
