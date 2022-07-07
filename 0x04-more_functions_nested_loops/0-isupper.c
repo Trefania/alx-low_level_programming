@@ -8,7 +8,7 @@
  */
 int _isdigit(int x)
 {
-	if (x >= 48 && x <= 57)
+	if (x >= 65 && x <= 90)
 	{
 		return (1);
 	}
