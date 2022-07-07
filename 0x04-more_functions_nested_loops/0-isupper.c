@@ -5,7 +5,7 @@
  * @c: an integer paramer
  * Return: something but success
  */
-int _isupper(int x)
+int _isupper(int c)
 {
-	return (x >= 'A' && x <= 'Z');
+	return (c >= 'A' && c <= 'Z');
 }
