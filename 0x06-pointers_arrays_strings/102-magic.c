@@ -1,10 +1,10 @@
 #include <stdio.h>
-/**
- * main - prints_num
- * @n: input integer.
- * Return: no return.
- */
+#include "main.h"
 
+/**
+ * main - function that print the program a[2] = 98
+ * Return: Always (0)
+ */
 int main(void)
 {
 	int n;
