@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stddef.h>
-#include <stdlib.h>
 
 /**
  * _strdup - returns a pointer to a new string which make duplicates
@@ -16,7 +14,7 @@ char *_strdup(char *str)
 		return (NULL);
 	while (str[i])
 		i++;
-		a = (char *) malloc(i * sizeof(char) + 1);
+	a = (char *) malloc(i * sizeof(char) + 1);
 	if (a == NULL)
 		return (NULL);
 	while (j < i)
