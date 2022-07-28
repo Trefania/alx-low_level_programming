@@ -1,7 +1,11 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <limits.h>
 
 /**
- * malloc_checked -> function should cause normal process termination with a status value of 98
+ * malloc_checked -> allocates some memory
+ * @b: the size to allocate
  * Return: Nothing.
  */
 void *malloc_checked(unsigned int b)
