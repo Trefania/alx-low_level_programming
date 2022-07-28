@@ -18,13 +18,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	for (t = 0; s1[t]; t++;)
+	for (t = 0; s1[t]; t++)
 		length++;
 	concat = (char *)malloc(sizeof(char) * length + 1);
 	if (concat == NULL)
 		return (NULL);
 	length = 0;
-	for (t = 0; s1[t]; t++;)
+	for (t = 0; s1[t]; t++)
 		concat[length++] = s1[t];
 	for (t = 0; s2[t] && t < n; t++)
 	concat[length++] = s2[t];
