@@ -1,5 +1,4 @@
 #ifndef SIZE
-#define SIZE 1024
-malloc(SIZE)
+#define SIZE = 1024
 
 #endif
