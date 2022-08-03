@@ -1,6 +1,10 @@
 #ifndef FUNCTION_POINTERS_H
 #define FUNCTION_POINTERS_H
 
+/**
+  * Desc: header file cointaining all prototypes
+  */
+
 #include <stdlib.h>
 
 void print_name(char *name, void (*f)(char *));
