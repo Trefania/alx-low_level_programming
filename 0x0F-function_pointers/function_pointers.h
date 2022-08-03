@@ -3,7 +3,8 @@
 
 /**
   * Desc: header file cointaining all prototypes
-  */
+  *       used in  the 0x0F-function_pointer directory 
+*/
 
 #include <stdlib.h>
 
