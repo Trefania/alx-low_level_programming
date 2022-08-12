@@ -4,7 +4,7 @@
 void myfunction(void) __attribute__ ((constructor));
 
 /**
-  myfunction - print line before ..
+ * myfunction - print line before main
  * Return: nothing
  **/
 void myfunction(void)
