@@ -9,11 +9,9 @@ size_t print_listint(const listint_t *h)
 {
 	size_t n = 0;
 
-	if (h == NULL)
-		printf("%s\n", "list is empty");
 	while (h != NULL)
 	{
-		printf("%u\n", h->n);
+		printf("%i\n", h->n);
 		h = h->next;
 		n++;
 	}
