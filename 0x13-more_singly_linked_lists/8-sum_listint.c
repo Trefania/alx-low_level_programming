@@ -8,7 +8,7 @@
 int sum_listint(listint_t *head)
 {
 	int sum;
-	listint_t *oldlist
+	listint_t *oldlist;
 
 	for (sum = 0, oldlist = head; oldlist != NULL; oldlist = oldlist->next)
 	sum += oldlist->n;
