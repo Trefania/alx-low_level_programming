@@ -1,22 +1,22 @@
 #include "lists.h"
 
 /**
- * sum_dlistint - returns the sum of all node data
+ * sum_dlistint - returns the sum of all nodes data
  * @head: head of node
- * Return: sum of node data
+ * Return: sums of node data
  */
 int sum_dlistint(dlistint_t *head)
 {
-	size_t res = 0;
+	size_t sum = 0;
 
 	if (head == NULL)
 		return (0);
 
 	while (head != NULL)
 	{
-		res += head->n;
+		sum += head->n;
 		head = head->next;
 	}
 
-	return (res);
+	return (sum);
 }
