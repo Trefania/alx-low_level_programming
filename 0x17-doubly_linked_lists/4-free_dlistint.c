@@ -3,7 +3,7 @@
 /**
  * free_dlistint - frees list
  * @head: head of node
- * Return: free'd list
+ * Return: freed list
  */
 void free_dlistint(dlistint_t *head)
 {
